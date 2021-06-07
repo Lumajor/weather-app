@@ -23,3 +23,32 @@
 body {
     padding: 20px
 }
+
+#weatherInfo {
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    flex-direction: row;
+}
+
+#weatherInfo p {
+    font-size: 32px;
+}
+
+#weatherTemp {
+    font-size: 48px;
+}
+
+#weatherVisibility {
+    font-size: 48px;
+}
+
+#weatherSupportingInfo {
+    display: none;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+#divider {
+    display: none;
+}
